@@ -1,0 +1,155 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+p,h2,h3{
+    color: #ebe3e3;
+}   
+
+
+header {
+    background-color: black;
+    color: #fff;
+    padding: 1rem;
+    background-size: cover; 
+    background-position: center; 
+}
+
+
+.title-and-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-and-nav nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+
+.title-and-nav nav a:hover {
+    background-color: #555;
+}
+
+h2{
+    text-align: center;
+}
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.car-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+}
+
+.car-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+}
+
+.car-image {
+    max-width: 100%;
+}
+
+
+.giant-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+
+}
+
+
+
+
+.giant-image-section {
+    background-image: url('https://cdn.wallpapersafari.com/19/63/HYnDUL.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 3rem 0; 
+    position: relative; 
+}
+
+
+
+section {
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        display: block;
+        background-color: #444;
+        text-align: center;
+        padding: 0.5rem;
+    }
+}
+
+
+
+
+.giant-image {
+    position: relative;
+    width: 100%;
+    height: 500px; 
+    background-image: url('https://cdn.wallpapersafari.com/19/63/HYnDUL.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.mission-statement {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    padding: 20px;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease; /*transition effect */
+}
+
+
+.mission-statement h2,
+.mission-statement p {
+    color: #fff;
+}
+
+
+.mission-button {
+    display: inline-block;
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+.mission-statement:hover {
+    border-color: #fff; 
+}
+
+
+
+
+
